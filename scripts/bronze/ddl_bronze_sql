@@ -88,3 +88,13 @@ CREATE TABLE bronze.erp_px_cat_g1v2 (
     subcat      VARCHAR(100),
     maintenance VARCHAR(50)
 );
+
+/* pgAdmin's Import/Export GUI feature (Best for pgAdmin )
+
+     -In the left sidebar, right-click on the table crm_cust_info (under bronze schema)
+    -Select Import/Export Data...
+     -Toggle to Import
+     -Under Filename, click the folder icon and select your CSV (from your local machine — pgAdmin uploads it via the client)
+     -Set Format = CSV, Header = Yes, Delimiter = ,
+     -Click OK
+*/
